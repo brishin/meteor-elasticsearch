@@ -5,8 +5,8 @@ Elasticsearch client for meteor server side. Added methods to easily manage rive
 *Includes the official low-level Elasticsearch client for Node.js and the browser pack*
 
 ### Installation
-```bash
-mrt add elasticsearch
+```
+meteor add brishin:meteor-elasticsearch
 ```
 
 ### Configuration

@@ -6,6 +6,8 @@ ES = new elasticsearch.Client Meteor.settings.elasticsearch
 if Meteor.settings && Meteor.settings.elasticsearch && Meteor.settings.elasticsearch.meteorLogger is "enabled"
   Logger.enableLog "elasticsearch"
 
+ES.queryDSL = queryDSL
+
 ES.river =
 
   ###

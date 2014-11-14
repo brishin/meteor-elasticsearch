@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Meteor interface for ES, provides easy methods to river meteor collections aswell.",
-  version: "0.0.7",
+  version: "0.0.9",
   name: "brishin:meteor-elasticsearch",
   git: "https://github.com/brishin/meteor-elasticsearch.git"
 });
@@ -16,7 +16,7 @@ Package.onUse(function (api, where) {
   api.use([
     'coffeescript',
     'http',
-    'mrt:log'
+    'mrt:log@0.0.1'
   ], ['server']);
 
   api.addFiles([
