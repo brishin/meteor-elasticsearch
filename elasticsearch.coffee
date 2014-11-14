@@ -1,5 +1,6 @@
 Fiber = Npm.require 'fibers'
 elasticsearch = Npm.require 'elasticsearch'
+queryDSL = Npm.require 'elastic.js'
 ES = new elasticsearch.Client Meteor.settings.elasticsearch
 
 if Meteor.settings && Meteor.settings.elasticsearch && Meteor.settings.elasticsearch.meteorLogger is "enabled"

@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "elastic.js": {
+      "version": "1.2.0",
+      "dependencies": {
+        "colors": {
+          "version": "0.6.2"
+        }
+      }
+    },
     "elasticsearch": {
       "version": "2.1.2",
       "dependencies": {
